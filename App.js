@@ -4,11 +4,12 @@ import  Constants from 'expo-constants'
 
 import Exemplo1 from './src/exemplos/ex01';
 import Exemplo2 from './src/exemplos/ex02';
+import Exemplo3 from './src/exemplos/ex03';
 
 export default function App() {
   return (
     <View style={styles.container}>
-      <Exemplo2/>
+      <Exemplo3/>
       <StatusBar style="light" />
     </View>
   );
