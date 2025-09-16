@@ -39,6 +39,12 @@ function handleincrementar (){
             onPress={() => handleincrementar()}
             
             >
+                
+            <TouchableOpacity 
+            style={styles.botao}
+            onPress={() => handledecrementar()}
+            
+            ></TouchableOpacity>
             <Text style={styles.txtBotao}>INCREMENTAR NUMERO</Text>    
                 
             </TouchableOpacity>    
