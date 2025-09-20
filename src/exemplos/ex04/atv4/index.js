@@ -3,7 +3,7 @@ import {View, Text, TextInput, TouchableOpacity } from 'react-native';
 
 import styles  from './styles';
 
-export default function Exemplo4() {
+export default function atividade4() {
 
     const[texto, settexto] = useState('');
     const[txt2, setTxT2] = useState('valor inicial ');
