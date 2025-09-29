@@ -6,12 +6,24 @@ import Exemplo1 from './src/exemplos/ex01';
 import Exemplo2 from './src/exemplos/ex02';
 import Exemplo3 from './src/exemplos/ex03';
 import Exemplo4 from './src/exemplos/ex04';
-import Atividade4 from './src/exemplos/ex04/atv4';
+
+import Atividade4 from './src/exemplos/atv04';
+
+import Index from './src/exemplos/ex05';
+
+
+import { useState } from 'react';
 export default function App() {
+
+  const [n1, setN1] = useState(0);
+  const [n2, setN2] = useState(0);
+  const [total, setTotal] = useState(0);
+
+  
+  
   return (
     <View style={styles.container}>
-      <Atividade4/>
-      <StatusBar style="light" />
+      <Index/>
     </View>
   );
 }
@@ -19,10 +31,11 @@ export default function App() {
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    backgroundColor: '#0ff',
+    justifyContent: 'center',
+    backgroundColor: '#C51162',
     // alignItems: 'center',
     // justifyContent: 'center',
-    padding:10,
+    padding:8,
     paddingTop: Constants.statusBarHeight,
   },
 });
