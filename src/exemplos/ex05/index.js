@@ -18,25 +18,30 @@ export default function Index() {
 
 
     return(
+        
         <View style={styles.container}>
             <Text style={styles.paragraph}>
                 Exemplo 5 
                 </Text>
                 
 
-            <Text style={StyleSheet.TxtSaida}>Calculadora basica</Text>
+            <Text style={styles.TxtSaida}>Calculadora basica</Text>
 
             <Text style={styles.txtLabel}> 1ºnúmero </Text>
-            
             <TextInput style={styles.txtEntrada}
+            
             onChangeText={(entrada) => setN1(entrada)}
             value={n1}
              />
 
             <Text style={styles.txtSaida}> + </Text>
+           
+            
 
              <Text style={styles.txtLabel}> 2ºnúmero </Text>
-            <TextInput style={styles.txtEntrada}
+             <TextInput style={styles.txtEntrada}
+            
+            
             onChangeText={(entrada) => setN2(entrada)}
             value={n2}
              />
@@ -57,3 +62,5 @@ export default function Index() {
         </View>
     );
 };
+
+

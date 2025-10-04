@@ -29,6 +29,8 @@ const styles = StyleSheet.create(
         marginTop: 20,
     },
     txtButton: {
+        borderWidth: 4,
+        borderColor: '#E91E63',
         fontSize: 22,
         color: '#FF80AB',
         textAlign:'center',
@@ -36,7 +38,9 @@ const styles = StyleSheet.create(
     txtLabel: {
         fontSize:16,
         fontWeight: 'bold',
-        color:'#C51162'
+        color:'#fff'
     },
     }
 );
+
+export default styles;

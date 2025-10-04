@@ -19,10 +19,9 @@ export default function App() {
   const [n2, setN2] = useState(0);
   const [total, setTotal] = useState(0);
 
-  
-  
   return (
     <View style={styles.container}>
+      <Text style={styles.paragraph}></Text>
       <Index/>
     </View>
   );
@@ -33,9 +32,15 @@ const styles = StyleSheet.create({
     flex: 1,
     justifyContent: 'center',
     backgroundColor: '#C51162',
-    // alignItems: 'center',
-    // justifyContent: 'center',
     padding:8,
     paddingTop: Constants.statusBarHeight,
   },
+  paragraph: {
+    margin: 6,
+    fontSize: 18,
+    fontWeight: 'center',
+    textAlign: 'center',
+    color: '#C51162'
+    
+  }
 });
