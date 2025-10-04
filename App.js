@@ -31,7 +31,7 @@ const styles = StyleSheet.create({
   container: {
     flex: 1,
     justifyContent: 'center',
-    backgroundColor: '#C51162',
+    backgroundColor: '#247419ff',
     padding:8,
     paddingTop: Constants.statusBarHeight,
   },
@@ -40,7 +40,7 @@ const styles = StyleSheet.create({
     fontSize: 18,
     fontWeight: 'center',
     textAlign: 'center',
-    color: '#C51162'
+    color: '#0d2163ff'
     
   }
 });

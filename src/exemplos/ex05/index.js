@@ -16,6 +16,23 @@ export default function Index() {
     setTotal(conta.toString());
   }
 
+  function Sub() {
+    const conta = parseInt (n1) - parseInt(n2);
+    setTotal(conta.toString());
+  }
+
+   function mult() {
+    const conta = parseInt (n1) * parseInt(n2);
+    setTotal(conta.toString());
+  }
+
+   function div() {
+    const conta = parseInt (n1) / parseInt(n2);
+    setTotal(conta.toString());
+  }
+
+
+
 
     return(
         
@@ -25,7 +42,7 @@ export default function Index() {
                 </Text>
                 
 
-            <Text style={styles.TxtSaida}>Calculadora basica</Text>
+            <Text style={styles.txtSaida}>Calculadora Basica</Text>
 
             <Text style={styles.txtLabel}> 1ºnúmero </Text>
             <TextInput style={styles.txtEntrada}
@@ -33,30 +50,45 @@ export default function Index() {
             onChangeText={(entrada) => setN1(entrada)}
             value={n1}
              />
-
-            <Text style={styles.txtSaida}> + </Text>
            
             
 
              <Text style={styles.txtLabel}> 2ºnúmero </Text>
-             <TextInput style={styles.txtEntrada}
-            
-            
-            onChangeText={(entrada) => setN2(entrada)}
-            value={n2}
-             />
+               <TextInput style={styles.txtEntrada}
+                 onChangeText={(entrada) => setN2(entrada)}
+                  value={n2}
+                  />
 
             <Text style={[styles.txtSaida, {margin: 0 }]}> = </Text>
 
             <Text style={styles.txtLabel}> Total </Text>
-            <TextInput style={styles.txtEntrada}
-            editable={false}
-            value={total}
-             />
+               <TextInput style={styles.txtEntrada}
+                 editable={false}
+                  value={total}
+                  />
 
             <TouchableOpacity style={styles.button} onPress={() => Soma ()}>
                 <Text style ={styles.txtButton}> + </Text>
                 </TouchableOpacity>
+
+
+             <TouchableOpacity style={styles.button} onPress={() => Sub ()}>
+                <Text style ={styles.txtButton}> - </Text>
+                </TouchableOpacity>
+
+                
+             <TouchableOpacity style={styles.button} onPress={() => mult ()}>
+                <Text style ={styles.txtButton}> * </Text>
+                </TouchableOpacity>
+
+                
+             <TouchableOpacity style={styles.button} onPress={() => div ()}>
+                <Text style ={styles.txtButton}> / </Text>
+                </TouchableOpacity>
+
+
+                
+
 
             
         </View>

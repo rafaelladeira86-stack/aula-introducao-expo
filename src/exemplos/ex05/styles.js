@@ -7,38 +7,51 @@ const styles = StyleSheet.create(
         fontSize: 22,
         fontWeight: 'bold',
         textAlign: 'center',
-        color:'#E91E63', 
+        color:'#1056daff', 
 
     },
     txtEntrada: {
-        borderWidth: 4,
+        backgroundColor: '#fff',
+        padding: 12,
+        width:'100%',
+        borderWidth: 1,
         textAlign: 'center',
-        fontSize: 22,
-        borderColor: '#E91E63',
+        fontSize: 18,
+        borderColor: '#ddd',
         height: 40,
-        color:'#E53935',
-        borderRadius: 10,
+        color:'#333',
+        borderRadius: 12,
         marginTop: 10,
+        marginVertical: 8,
+        
     },
 
     button: {
-        backgroundColor: '#E91E63',
+        backgroundColor: '#14195eff',
         height: 40,
         justifyContent: 'center',
         borderRadius: 10,
         marginTop: 20,
     },
     txtButton: {
-        borderWidth: 4,
-        borderColor: '#E91E63',
         fontSize: 22,
-        color: '#FF80AB',
+        color: '#50f110ff',
         textAlign:'center',
     },
     txtLabel: {
         fontSize:16,
         fontWeight: 'bold',
-        color:'#fff'
+        color:'#07204493'
+    },
+    
+    
+    paragraph: {
+    margin: 6,
+    fontSize: 18,
+    fontWeight: 'center',
+    textAlign: 'center',
+    color: '#a8b818ff'
+    
     },
     }
 );
