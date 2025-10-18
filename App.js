@@ -9,7 +9,7 @@ import Exemplo4 from './src/exemplos/ex04';
 
 import Atividade4 from './src/exemplos/atv04';
 
-import Index from './src/exemplos/ex05';
+import Index from './src/exemplos/ex06';
 
 
 import { useState } from 'react';
