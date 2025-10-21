@@ -3,7 +3,6 @@ import { RFPercentage, } from "react-native-responsive-fontsize";
 const styles = StyleSheet.create(
 {
     entradaImc: {
-        flex: 1,
         flexDirection: 'row',
     },
 
@@ -35,6 +34,14 @@ const styles = StyleSheet.create(
         padding: 15,
     
 },
+
+mensagem:{
+    alignSelf: 'center',
+        color: 'lightgray',
+        fontSize: 30,
+        padding: 15,
+    
+}
 
 
 

@@ -31,7 +31,7 @@ const styles = StyleSheet.create({
   container: {
     flex: 1,
     justifyContent: 'center',
-    backgroundColor: '#247419ff',
+    backgroundColor: '#4ee6faff',
     padding:8,
     paddingTop: Constants.statusBarHeight,
   },
