@@ -4,13 +4,14 @@ const styles = StyleSheet.create(
 {
     entradaImc: {
         flexDirection: 'row',
+    
     },
 
     input: {
-        height: 80,
+        height: 100,
         textAlign: 'center',
         width: '50%',
-        fontSize: 50,
+        fontSize: 30,
         marginTop: 24,
         color: 'lightgray',
     },

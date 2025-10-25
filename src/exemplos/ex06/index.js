@@ -10,6 +10,7 @@ export default function Index() {
   const [altura, setAltura] = useState(0);
   const [resultado, setResultado] = useState(0);
   const [mensagem, setMensagem] = useState(0);
+  
   function Calcular() {
     const valor = massa / (altura * altura);
     setResultado(valor);

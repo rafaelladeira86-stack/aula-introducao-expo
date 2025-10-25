@@ -31,13 +31,13 @@ const styles = StyleSheet.create({
   container: {
     flex: 1,
     justifyContent: 'center',
-    backgroundColor: '#4ee6faff',
+    backgroundColor: '#755313ff',
     padding:8,
     paddingTop: Constants.statusBarHeight,
   },
   paragraph: {
     margin: 6,
-    fontSize: 18,
+    fontSize: 10,
     fontWeight: 'center',
     textAlign: 'center',
     color: '#0d2163ff'
